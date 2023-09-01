@@ -12,6 +12,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "next": "^13.3.0",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "react-hook-form": "^7.45.4"
   }
 }
