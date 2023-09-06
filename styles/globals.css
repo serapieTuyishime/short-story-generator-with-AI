@@ -4,14 +4,52 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url("../public/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
+    display: grid;
+    place-items: center;
 }
-
+.form-input {
+    background-color: rgb(252, 252, 247);
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.input-container {
+    min-height: 100px;
+    display: grid;
+    place-content: start;
+    position: relative;
+    gap: 3px;
+    padding: 0px 5Spx;
+}
+.info-button {
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 0px 4px;
+    font-size: 10px;
+    color: gray;
+    max-width: fit-content;
+    cursor: pointer;
+    margin: 3px;
+}
+.input-info {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 5px 0px 0px 0px;
+    padding: 10px;
+    font-size: 12px;
+    max-width: 80%;
+}
 .text-input {
     padding: 0.5rem;
     font-size: 1rem;
